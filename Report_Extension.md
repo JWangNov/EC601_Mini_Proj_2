@@ -17,3 +17,18 @@ You Only Look Once (YOLO). A relatively fast and accurate real-time objects dete
 ## A Deep Unsupervised Learning Algorithm Based on Cloud Computing
 
 It can increase the efficiency of NN learning, especially can shorten the running time. It still needs further improvement on accuracy enhancement and has some points to be optimized.
+
+## Some Advanced K-Means Algorithms
+
+### K-Means++
+
+Assuming that there are n+1 center points to pick. 
+Choose first n centers, then get the n+1 as far as possible away from the n points. 
+
+Compared to K-Means: K-Means picks all n+1 points randomly.
+
+### Kernel K-Means
+
+Get all data in another space then work on it.
+
+### ......
