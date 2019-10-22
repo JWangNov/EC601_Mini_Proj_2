@@ -36,6 +36,6 @@ Compared to K-Means: K-Means picks all n+1 points randomly.
 
 In the traditional K-Means algorithm, we calculate the distance from all sample points to all centroids in each iteration, which is time consuming. 
 
-Elkan K-Means uses the sum of the two sides to be greater than or equal to the third side, and the difference between the two sides is smaller than the third side of the triangle to reduce the time of distance calculation. 
+Elkan K-Means uses the sum of the two sides to be greater than or equal to the third side, and the subtraction of the two sides is smaller than the third side of the triangle to reduce the time of distance calculation. 
 
 ### ......
